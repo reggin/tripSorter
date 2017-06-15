@@ -15,4 +15,14 @@ $tripSorter = new TripSorter(
 $sortedCards = $tripSorter->sortCards($inputData);
 ```
 
-You can also check tests for examples, how to use service.
+You can also check tests for examples, how to use service:
+
+Install dependencies, using composer 
+```
+composer install
+```
+
+Then run tests, using phpunit:
+```
+vendor/bin/phpunit
+```
