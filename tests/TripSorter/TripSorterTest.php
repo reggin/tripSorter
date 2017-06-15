@@ -3,16 +3,10 @@
 namespace TripSorter;
 
 use TripSorter\Entity\Factory\CardEntityFactory;
-use TripSorter\Entity\Serializer\CardEntitySerializer;
 use TripSorter\Handler\CardListSorter;
 
 class TripSorterTest extends \PHPUnit_Framework_TestCase
 {
-
-    const FIELD_TRANSPORT = 'transport';
-    const FIELD_FROM = 'from';
-    const FIELD_TO = 'transport';
-    const FIELD_SEAT_INFORMATION = '';
 
     private $cardFactory;
 
